@@ -10,7 +10,7 @@ Details of the script:
 - saves the test results in 2 files: Successful (only status 200) and unsuccessful (other statuses).
 
 ### A little demo video:
-![alt text](https://github.com/[dmytroiva]/[sitemap-crawler]/blob/[dev]/media/sitemap_crawler_demo.mp4)
+![](https://github.com/dmytroiva/sitemap-crawler/blame/dev/media/preview.png)](https://github.com/dmytroiva/sitemap-crawler/blame/dev/media/sitemap_crawler_demo.webm)
   
 This will allow Nginx to cache these pages when they are accessed and then give them to users and search engines faster.
 To start script use command:
