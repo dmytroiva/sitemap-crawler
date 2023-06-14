@@ -2,14 +2,6 @@ from xml.etree.ElementTree import fromstring
 import requests
 import sys
 
-# To run this script use command with specific URL parameters:
-# python3 path/to/the/script/sitemap_crawler_v5.py example.com
-# To compile script for Linux OS, use pyinstaller:
-# run 'pyinstaller --onefile sitemap_crawler_v5.py'
-# Another example to compile into pyton executable file:
-# pyinstaller --onefile --add-binary "/usr/bin/python3:." --add-binary "/usr/lib/x86_64-linux-gnu/libpython3.11.so.1.0:." --add-data "/usr/lib/python3/dist-packages/requests:requests" --add-binary "/home/vorting/.local/lib/python3.11/site-packages:." sitemap_crawler_v5.py
-
-
 def check_url_availability(url):
     try:
         response = requests.head(url)
