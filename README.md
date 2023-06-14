@@ -12,7 +12,7 @@ Details of the script:
 This will allow Nginx to cache these pages when they are accessed and then give them to users and search engines faster.
 
 ### A little demo video:
-![sitemap_demo](https://github.com/dmytroiva/sitemap-crawler/blob/dev/media/sitemap_demo.gif)
+![sitemap_demo](https://github.com/dmytroiva/sitemap-crawler/blob/dev/media/sitemap_progress_bar.gif)
 
 To start script use command:
 > python3 path/to/the/script/sitemap_crawler_v5.py www.gymshark.com
