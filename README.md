@@ -1,7 +1,4 @@
 # sitemap-crawler
-<<<<<<< HEAD
-Script which will crawl any sitemap.xml for your website
-=======
 
 ## A script that will crawl any sitemap.xml file for your site.
 Details of the script:
@@ -29,4 +26,3 @@ To start script use command:
  `pyinstaller --onefile --add-binary "/usr/bin/python3:." --add-binary "/usr/lib/x86_64-linux-gnu/libpython3.11.so.1.0:." --add-data "/usr/lib/python3/dist-packages/requests:requests" --add-binary "/home/vorting/.local/lib/python3.11/site-packages:." sitemap_crawler_v5.py`
 
 All rights reserved by Dmytro (Vorting) Ivanov
->>>>>>> f8a5b1b (Refactor .md)
