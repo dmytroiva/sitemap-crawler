@@ -35,7 +35,7 @@ This will allow Nginx to cache these pages when they are accessed and then give 
 > 4. [Auto PY to EXE](https://dev.to/eshleron/how-to-convert-py-to-exe-step-by-step-guide-3cfi "to install hit the link")
 
 ## To use on any OS you should install docker on your system:
-> [DockerHub]([https://stackoverflow.com/questions/17309288/importerror-no-module-named-requests](https://hub.docker.com/r/vorting/crawler-image) "to install visit the link")
+> [DockerHub](https://hub.docker.com/r/vorting/crawler-image "to install visit the link")
 
 ## Running Auto-py:
 `auto-py-to-exe`
