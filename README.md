@@ -3,6 +3,7 @@
 ## A script that will crawl any sitemap.xml file for your site.
 Details of the script:
 
+- reads robots.txt and extracts sitemap.xml;
 - go through all the links from the sitemap.xml file (and its subfiles) and check that the pages are available and return a 200 response;
 - the passage is done in single-threaded mode. Allows you to reduce the load on the server and prevent server spam;
 - the script is suitable for checking any sitemap.xml, just enter the domain name;
@@ -15,14 +16,14 @@ This will allow Nginx to cache these pages when they are accessed and then give 
 ![sitemap_demo](https://github.com/dmytroiva/sitemap-crawler/blob/dev/media/sitemap_progress_bar.gif)
 
 ### To start script use command:
-`python3 path/to/the/script/sitemap_crawler_v5.py www.gymshark.com`
+`python3 path/to/the/script/sitemap_crawler_v6.1.py www.gymshark.com`
 
 ## To compile script for **Linux OS**, use **pyinstaller** or Auto-py for Linux:
 
 > [pyinstaller](https://pyinstaller.org/en/stable/installation.html "to install hit the link") --onefile **sitemap_crawler_v5.py**
 
 ### And the same command to run:
-`pyinstaller --onefile sitemap_crawler_v5.py`
+`pyinstaller --onefile sitemap_crawler_v6.1.py`
 
 ## If your script didn't start at other Unix OS try another example to compile into Python executable file:
 
